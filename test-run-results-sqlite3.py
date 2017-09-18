@@ -13,7 +13,7 @@ with con:
     
     cur = con.cursor()    
 
-    cur.execute('PRAGMA table_info(temptable)')
+    cur.execute('PRAGMA table_info(test_output_table)')
         
     data = cur.fetchall()
     
@@ -24,7 +24,7 @@ with con:
 
     print "\nPrint Table \"temptable\" data with columns names: "
     # cur.execute("SELECT * FROM final where id < 20")
-    cur.execute("SELECT * FROM temptable")
+    cur.execute("SELECT * FROM test_output_table")
     col_names = [cn[0] for cn in cur.description]
     
     rows = cur.fetchall()

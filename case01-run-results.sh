@@ -3,7 +3,7 @@
 #activate the virtual environment
 source virt_env/virt1/bin/activate
 
-./dbf2sqlite temptable.dbf -o db/sqlite3.db
+./dbf2sqlite files/case01_output_table.dbf -o db/sqlite3.db
 
 echo "end of dbftsqlite"
 
