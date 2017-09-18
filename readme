@@ -25,6 +25,9 @@ pip freeze > requirements.txt
 pip install -r requirements.txt --upgrade
 
 #(4)
+
+
+#(5)
 $sqlite3 db/test.db
 
 sqlite>.header on
@@ -39,4 +42,5 @@ ref's:
 [1]: http://www.simononsoftware.com/virtualenv-tutorial/
 [2]: https://dbfread.readthedocs.io/en/latest/installing.html, 
 [3]: http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/
-[4]: http://zetcode.com/db/sqlitepythontutorial/
+[4]: https://github.com/gregbanks/python-tabulate, https://stackoverflow.com/questions/9535954/printing-lists-as-tabular-data
+[5]: http://zetcode.com/db/sqlitepythontutorial/
